@@ -1,0 +1,16 @@
+{
+  "name": "begin-app",
+  "version": "0.0.0",
+  "description": "Example demonstrating publishing and subscribing to an event",
+  "scripts": {
+    "start": "npx sandbox",
+    "test": "tape test/*-test.js ./test/**/*-test.js | tap-spec"
+  },
+  "devDependencies": {
+    "@architect/sandbox": "^5.1.1",
+    "@begin/data": "^3.0.4",
+    "tap-spec": "^5.0.0",
+    "tape": "^5.5.2",
+    "tiny-json-http": "^7.3.1"
+  }
+}

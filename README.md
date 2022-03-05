@@ -1,2 +1,0 @@
-# events-tracker
-Begin app
